@@ -1,0 +1,15 @@
+﻿Классификация эмоций в диалоге / разговоре,WF1 / WAF1,SCMM; TelME; DialogueMLLM; ADALGN; CMERK
+,Acc + WF1,ConxGNN; GatedxLSTM; MAGTKD; MKE-IGN; GRPO-LLM; GS-MCC; UniMEEC (MERC)
+,Acc + WA/WAA/W-Acc + F1 + WF1/WAF1,CBERL; DER-GCN; DCLF
+,Acc + WF1/WAF1 + F1cls,GMA; ECERC; SDT; BIG-FUSION; SI+KD+HF; DialogueMMT; DGODE
+Общая классификация эмоций,WF1,AMANDA
+,IEMOCAP: Acc + F1; CMU-MOSEI: W-Acc + F1,QAP
+,W-Acc + UA-Acc/UW-Acc; также Acc + F1 + P + R,MemoCMT
+,Acc + R(w) + P(w) + F1(w),HyFusER
+Multi-label классификация эмоций,Acc + Micro-F1 + P + R,CARAT
+Извлечение причин эмоций / pair extraction,P + R + F1,UniMEEC (MECPE)
+,EPC: UAR + M-F1; ERC: Acc + WF1,Emotional Cues Extraction
+Совместная классификация эмоций и сентимента,MF; CMU-MOSEI: mMF; также A + WF / WA + mWF,LEFSA / LEFS
+Fine-grained / open-vocabulary / descriptive emotion understanding,MER-SEMI: WAF + Acc,UniEmotion
+,MER-FG: S1 + S2; MER-DES: human eval.,UniEmotion
+Генерация эмоции для ответа в диалоге,m-avg + w-avg; F1 по отдельным эмоциям,Personality-affected Emotion Generation
